@@ -5,7 +5,7 @@ public class Warrior extends Protagonist{
       defense += 10;
   }
   public String toString() {
-    return "protagonist type: " + this.getClass().getSimpleName(); + System.lineSeparator()
+    return "protagonist type: " + this.getClass().getSimpleName() + System.lineSeparator()
          + super.toString();
   }
 }

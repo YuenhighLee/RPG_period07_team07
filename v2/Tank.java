@@ -4,7 +4,7 @@ public class Tank extends Protagonist{
     health +=50;
   }
   public String toString() {
-    return "protagonist type: " + this.getClass().getSimpleName(); + System.lineSeparator()
+    return "protagonist type: " + this.getClass().getSimpleName() + System.lineSeparator()
          + super.toString();
   }
 }
