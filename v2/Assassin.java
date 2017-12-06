@@ -1,4 +1,4 @@
-public class Assasin extends Protagonist{
+public class Assassin extends Protagonist{
   private String name;
 
   public Assasin(String name){
