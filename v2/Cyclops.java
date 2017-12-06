@@ -1,5 +1,5 @@
 public class Cyclops extends Monster{
-  public class cyclops(){
+  public Cyclops(){
     super();
     health += 50;
   }

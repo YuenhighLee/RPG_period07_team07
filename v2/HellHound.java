@@ -1,7 +1,7 @@
 public class HellHound extends Monster{
-  public class HellHound(){
+  public HellHound(){
     super();
-    atackRating += 0.3;
+    attackRating += 0.3;
   }
   public String toString() {
     return "monster type: " + this.getClass().getSimpleName() + System.lineSeparator()

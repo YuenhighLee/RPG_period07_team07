@@ -1,5 +1,5 @@
 public class Skeleton extends Monster{
-  public class skeleton(){
+  public Skeleton(){
     super();
     strength += 10;
     defense += 5;

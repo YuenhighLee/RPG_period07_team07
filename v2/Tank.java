@@ -1,5 +1,5 @@
 public class Tank extends Protagonist{
-  public Tank(string name){
+  public Tank(String name){
     super(name);
     health +=50;
   }
