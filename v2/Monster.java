@@ -6,4 +6,11 @@ public class Monster extends Character{
     defense = 20;
     attackRating = 1;
   }
+  
+  public String toString() {
+      return "health: " + health + System.lineSeparator()
+           + "strength: " + strength + System.lineSeparator()
+           + "defense: " + defense + System.lineSeparator()
+           + "attack rating: " + attackRating + System.lineSeparator();
+  }
 }
