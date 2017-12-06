@@ -22,6 +22,7 @@ public class YoRPG
   private int moveCount;
   private boolean gameOver;
   private int difficulty;
+  private int character;
 
   private InputStreamReader isr;
   private BufferedReader in;
@@ -61,10 +62,30 @@ public class YoRPG
     s += "Selection: ";
     System.out.print( s );
 
+    String p;
+    p = "-----Selectt Your Hero-----\n";
+    p += "\t1: Tank\n";
+    p += "\t2: Warrior\n";
+    p += "\t3: Assassin\n";
+    p += "Selection: ";
+    System.out.print( p );
+
     try {
 	    difficulty = Integer.parseInt( in.readLine() );
     } catch ( IOException e ) { }
 
+    try {
+	    character = Integer.parseInt( in.readLine() );
+    } catch ( IOException e ) { }
+    if (character == 1){
+      pat = new Tank( name );
+    }
+    else if (character == 2){
+      pat = new Warrior( name);
+    }
+    else{
+      pat = new Assassin( name );
+    }
     s = "Intrepid protagonist, what doth thy call thyself? (State your name): ";
     System.out.print( s );
 
@@ -73,7 +94,7 @@ public class YoRPG
     } catch ( IOException e ) { }
 
     //instantiate the player's character
-    pat = new Protagonist( name );
+    //pat = new Protagonist( name );
 
   }//end newGame()
 
@@ -88,13 +109,22 @@ public class YoRPG
   {
     int i = 1;
     int d1, d2;
+    if ((Math.random()*100)<33){
+      smaug = new Cyclops();
+    }
+    else if (33<(Math.random()*100) && (Math.random()*100) <66){
+      smaug = new Skeleton();
+    }
+    else{
+      smaug = new HellHound();
+    }
 
     if ( Math.random() >= ( difficulty / 3.0 ) )
 	    System.out.println( "\nNothing to see here. Move along!" );
     else {
 	    System.out.println( "\nLo, yonder monster approacheth!" );
 
-	    smaug = new Monster();
+	    //smaug = new Monster();
 
 	    while( smaug.isAlive() && pat.isAlive() ) {
 
