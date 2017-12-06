@@ -1,5 +1,5 @@
 public class Protagonist extends Character{
-  private String name;
+  protected String name;
 
   public Protagonist(String word){
     name = word;
