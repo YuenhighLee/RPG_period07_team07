@@ -3,4 +3,8 @@ public class Cyclops extends Monster{
     super();
     health += 50;
   }
+  public String toString() {
+    return "monster type: " + this.getClass().getSimpleName(); + System.lineSeparator()
+         + super.toString();
+  }
 }

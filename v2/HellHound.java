@@ -3,4 +3,8 @@ public class HellHound extends Monster{
     super();
     atackRating += 0.3;
   }
+  public String toString() {
+    return "monster type: " + this.getClass().getSimpleName(); + System.lineSeparator()
+         + super.toString();
+  }
 }
