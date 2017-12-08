@@ -1,29 +1,8 @@
 <h1>period 07 team 07</h1>
-<h3>Shadman Kazi, Yuenhigh Lee, Benjamin Shen</h3>
-<h2>v2 last updated 2017-12-06</h2>
+<h1 style="font-size: 20px;">Shadman Kazi, Yuenhigh Lee, Benjamin Shen</h1>
+<hr />
 
-<p>
-    <b>Character</b> class defines general fields and methods used by all characters in the game.
-</p>
+<p>This repository is for the 2017 Fall term of Mr. Holmes' APCS class at Stuyvesant High School.</p>
 
-<p>
-    <b>Protagonist</b> class initializes monster fields and defines methods specific to protagonist characters.
-  <br />
-    <b>Monster</b> class initializes monster fields and defines methods specific to monster characters.
-</p>
-
-<p>
-    <b>Tank</b> class is a more specific protagonist; health is increased.
-  <br />
-    <b>Warrior</b> class is a more specific protagonist; strength and defense are increased.
-  <br />
-    <b>Assassin</b> class is a more specific protagonist; attack rating is increased.
-</p>
-
-<p>
-    <b>Cyclops</b> class is a more specific monster; health is increased.
-  <br />
-    <b>Skeleton</b> class is a more specific monster; strength and defense are increased.
-  <br />
-    <b>Hellhound</b> class is a more specific monster; attack rating is increased.
-</p>
+<hr />
+<h2>Most recent version: V2</h2>
