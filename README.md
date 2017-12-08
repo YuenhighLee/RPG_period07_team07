@@ -1,5 +1,6 @@
-<h1>period 07</h1>
-<h2>team 07</h2>
+<h1>period 07 team 07</h1>
+<h3>Shadman Kazi, Yuenhigh Lee, Benjamin Shen</h3>
+<h2>v2 last updated 2017-12-06</h2>
 
 <p>
     <b>Character</b> class defines general fields and methods used by all characters in the game.
@@ -18,6 +19,7 @@
   <br />
     <b>Assassin</b> class is a more specific protagonist; attack rating is increased.
 </p>
+
 <p>
     <b>Cyclops</b> class is a more specific monster; health is increased.
   <br />
