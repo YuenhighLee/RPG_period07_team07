@@ -1,5 +1,5 @@
 <h1>period 07 team 07</h1>
-<h1 style="font-size: 20px;">Shadman Kazi, Yuenhigh Lee, Benjamin Shen</h1>
+<h3>Shadman Kazi, Yuenhigh Lee, Benjamin Shen</h3>
 <hr />
 
 <p>
