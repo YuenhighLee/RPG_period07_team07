@@ -63,7 +63,7 @@ public class YoRPG
     System.out.print( s );
 
     String p;
-    p = "-----Selectt Your Hero-----\n";
+    p = "-----Select Your Hero-----\n";
     p += "\t1: Tank\n";
     p += "\t2: Warrior\n";
     p += "\t3: Assassin\n";
